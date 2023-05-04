@@ -11,7 +11,7 @@ public class LlegirNotes {
 	}
 	public void inici() {
 		try {
-			File f = new File("Notes.txt");
+			File f = new File("C:\\Users\\usuario\\codewitchmarinna\\src\\UF3\\LlegirNotes\\Notes.txt");
 			Scanner lector = new Scanner(f);
 			boolean llegir = true;
 			while (llegir) {
